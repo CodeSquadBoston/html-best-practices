@@ -1,7 +1,7 @@
 # CodeSquad's HTML best practices
 
 ### Use the HTML5 doctype declaration at top of html page `<!DOCTYPE html>`
-There are many different versions of HTML that can be run in modern browsers such as HTML5, HTML 4.01 Strict, XHTML 1.0 Frameset, and others.  A browser can get confused about how to interpret your html in some cases.  CodeSquad standardizes on HTML5 so to avoid unexpected behavior we agree to put the HTML5 doctype declaration, `<!DOCTYPE html>` at the beginning of our HTML files.
+There are many different versions of HTML that can be run in modern browsers such as HTML5, HTML 4.01 Strict, XHTML 1.0 Frameset, and others.  A browser can get confused about how to interpret your html in some cases.  CodeSquad standardizes on HTML5 so to avoid unexpected behavior you should put the HTML5 doctype declaration, `<!DOCTYPE html>` at the beginning of your HTML files.
 
 
 #### Bad
