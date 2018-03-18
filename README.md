@@ -116,7 +116,7 @@ Using spaces between the equals and the attribute's name and value makes it hard
 ```
 
 ### Use indentation and line breaks when showing nested elements within a parent element.
-Use indentation to make it clear to other developers what elements are contained within other elements and make it easier to scan those elements.
+Use indentation to make it clear to other developers what block elements are contained within other elements and make it easier to scan those elements. However, it usually makes sense to leave inline elements within the flow of the text.
 
 #### Bad
 Not clear which elements are nested and which are sibling elements.
@@ -136,6 +136,13 @@ Too hard to scan what elements are in the `<div>`
 <div>
   <h1>Title</h1>
   <p>Interesting Content</p>
+  <p>and more</p>
+</div>
+```
+```html
+<div>
+  <h1>Title</h1>
+  <p>This <em>inline block</em> is nested but is okay not to indent.</p>
   <p>and more</p>
 </div>
 ```
